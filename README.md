@@ -85,11 +85,11 @@ npm run dev
 
 ###  Register Page
 
-![(<Screenshot 2025-07-04 171832.png>)]
+![Screenshot 2025-07-04 171832.png]
 
 ###  Login Page
 
-![(<Screenshot 2025-07-04 171913.png>)] 
+![Screenshot 2025-07-04 171913.png] 
 
 > 💡 _You can take your own screenshots and place them inside a `/screenshots` folder._
 
