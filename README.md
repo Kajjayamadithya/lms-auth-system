@@ -14,21 +14,48 @@ A simple and responsive **Login/Register** interface built with:
 ##  Project Structure
 
 ```
-client/
+your-repo-name/
 │
-├── public/              # Static files
-├── src/
-│   ├── api/             # Axios API handlers
-│   │   └── auth.ts
-│   ├── components/      # React components
-│   │   ├── Login.tsx
-│   │   └── Register.tsx
-│   ├── App.tsx          # Routing & layout
-│   ├── main.tsx         # React app entry point
-│   └── index.css        # Tailwind base styles
-├── package.json
-├── tailwind.config.js
-└── tsconfig.json
+├── frontend/
+│   ├── public/
+│   │   └── vite.svg
+│   ├── src/
+│   │   ├── api/
+│   │   │   └── auth.ts
+│   │   ├── assets/
+│   │   │   └── react.svg
+│   │   ├── components/
+│   │   │   ├── Login.tsx
+│   │   │   └── Register.tsx
+│   │   ├── App.css
+│   │   ├── App.tsx
+│   │   ├── index.css
+│   │   ├── main.tsx
+│   │   └── vite-env.d.ts
+│   ├── .gitignore
+│   ├── eslint.config.js
+│   ├── index.html
+│   ├── package.json
+│   ├── package-lock.json
+│   ├── postcss.config.js
+│   ├── tailwind.config.js
+│   ├── tsconfig.json
+│   ├── tsconfig.app.json
+│   └── vite.config.ts          👈 ✅ newly added
+│
+├── backend/
+│   ├── src/
+│   │   ├── models/
+│   │   │   └── User_models.ts
+│   │   ├── routes/
+│   │   │   └── authRoutes.ts
+│   │   └── server.ts
+│   ├── .env
+│   ├── package.json
+│   ├── package-lock.json
+│   └── tsconfig.json
+│
+└── README.md
 ```
 
 ---
